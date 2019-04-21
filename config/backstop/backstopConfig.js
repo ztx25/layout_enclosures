@@ -29,13 +29,22 @@ const config = {
   id: 'test',
   viewports: [
     {
-      name: 'tablet_h',
-      width: 1024,
-      height: 768
+      name: 'custom_viewport',
+      width: 390,
+      height: 550
     }
   ],
   scenarios: [
-    { ...basicScenario }
+    {
+      ...basicScenario,
+      label: 'entire-document',
+      selectors: ['document']
+    },
+    {
+      ...basicScenario,
+      label: 'single block',
+      selectors: ['#qa-block']
+    }
     // define here scenarios for testing
   ],
   paths: {
