@@ -29,9 +29,9 @@ const config = {
   id: 'test',
   viewports: [
     {
-      name: 'custom_viewport',
-      width: 390,
-      height: 550
+      name: 'desktop',
+      width: 1024,
+      height: 768
     }
   ],
   scenarios: [
