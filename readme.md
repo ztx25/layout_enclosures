@@ -1,8 +1,5 @@
 # Enclosures
 
-Please see the shots of the page at [backstop_data/bitmaps_reference](backstop_data/bitmaps_reference) 
-for reference.
-
 * The width of each of the three boxes has to be 350 pixels (including all 
 borders).
 * You can find the exact values of colors by using an image editor program.
