@@ -9,12 +9,12 @@ const { basicScenario } = backstop;
 const basic = {
   ...basicScenario,
   label: 'Elementary test',
-  referenceUrl:
-    'https://mate-academy.github.io/layout_solutions/enclosures/',
+  referenceUrl: basicScenario.referenceUrl + '/enclosures/',
 };
 
 const config = {
   ...backstop,
+  fileNameTemplate: '{scenarioLabel}',
   viewports: [
     {
       name: 'desktop',
@@ -25,12 +25,12 @@ const config = {
   scenarios: [
     {
       ...basic,
-      label: 'entire-document',
+      label: 'Entire document',
       selectors: ['document'],
     },
     {
       ...basic,
-      label: 'single block',
+      label: 'Single block with id_qa-block"',
       selectors: ['#qa-block'],
     },
   ],
