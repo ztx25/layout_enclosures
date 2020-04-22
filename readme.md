@@ -7,6 +7,7 @@ ___
 
 ## The task
 Add 3 block as shown here ![reference/enclosures.png](reference/enclosures.png)
+Use this extension for Chrome to find out the right color [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en)
 * [IMPORTANT] Add an attribute `id="qa-block"` to the block with english text.
 
 * The width of each box is 350px (including all borders).
